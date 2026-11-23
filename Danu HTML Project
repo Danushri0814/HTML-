@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Danushri B - Home</title>
+  <meta name="description" content="Personal portfolio website of Danushri B.">
+</head>
+<body>
+  <a href="#main-content">Skip to main content</a>
+
+  <header>
+    <h1>Danushri B</h1>
+    <nav aria-label="Main menu">
+      <a href="index.html" aria-current="page">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section aria-labelledby="welcome">
+      <h2 id="welcome">Welcome to My Portfolio</h2>
+      <p>Hi! I am Danushri. I am a Computer Science student learning how to build simple and accessible websites using HTML5.</p>
+    </section>
+
+    <section aria-labelledby="my-work">
+      <h2 id="my-work">My Work</h2>
+      <article>
+        <h3>Portfolio Website</h3>
+        <p>This is my first multi-page website made with semantic HTML tags so everyone can use it easily.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made by Danushri B © 2026</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Danushri B - About</title>
+  <meta name="description" content="About Danushri B and my learning skills.">
+</head>
+<body>
+  <a href="#main-content">Skip to main content</a>
+
+  <header>
+    <h1>Danushri B</h1>
+    <nav aria-label="Main menu">
+      <a href="index.html">Home</a> |
+      <a href="about.html" aria-current="page">About</a> |
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section aria-labelledby="about-me">
+      <h2 id="about-me">About Me</h2>
+      <p>I enjoy learning web basics, solving coding problems, and creating clean web pages.</p>
+    </section>
+
+    <aside aria-label="Skills list">
+      <h2>Things I Am Learning</h2>
+      <ul>
+        <li>HTML5 Semantic Tags</li>
+        <li>Web Accessibility Basics</li>
+        <li>Python Programming</li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer>
+    <p>Made by Danushri B © 2026</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Danushri B - Contact</title>
+  <meta name="description" content="Contact form to message Danushri B.">
+</head>
+<body>
+  <a href="#main-content">Skip to main content</a>
+
+  <header>
+    <h1>Danushri B</h1>
+    <nav aria-label="Main menu">
+      <a href="index.html">Home</a> |
+      <a href="about.html">About</a> |
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section aria-labelledby="contact-title">
+      <h2 id="contact-title">Contact Me</h2>
+      <p>Fill out the form below to send me a message.</p>
+
+      <form aria-label="Contact form">
+        <p>
+          <label for="your-name">Your Name:</label><br>
+          <input id="your-name" name="name" type="text" required>
+        </p>
+
+        <p>
+          <label for="your-email">Your Email:</label><br>
+          <input id="your-email" name="email" type="email" required>
+        </p>
+
+        <p>
+          <label for="your-message">Message:</label><br>
+          <textarea id="your-message" name="message" rows="4" required></textarea>
+        </p>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made by Danushri B © 2026</p>
+  </footer>
+</body>
+</html>
